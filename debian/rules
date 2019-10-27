@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export PYBUILD_DESTDIR_python3=debian/python3-urlobject/
+
+%:
+	dh $@ --with python3,sphinxdoc --buildsystem=pybuild
+
+override_dh_auto_build:
+	dh_auto_build -v
+	$(MAKE) -C doc clean html SPHINXOPTS=-N
+
+override_dh_auto_clean:
+	dh_auto_clean
+	$(MAKE) -C doc clean
+
+.PHONY: override_dh_auto_build override_dh_auto_clean

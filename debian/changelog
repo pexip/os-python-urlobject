@@ -1,0 +1,41 @@
+python-urlobject (2.4.3-3) unstable; urgency=medium
+
+  * No change rebuild.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 27 Oct 2019 22:54:20 +0100
+
+python-urlobject (2.4.3-2) unstable; urgency=medium
+
+  * Fix FTBFS: install README.rst, not README.md.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 27 Oct 2019 22:45:52 +0100
+
+python-urlobject (2.4.3-1) unstable; urgency=medium
+
+  [ Sandro Tosi ]
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #938245.
+
+  [ Andrej Shadura ]
+  * New upstream version.
+  * Refresh the patch.
+  * Maintain in the team.
+  * Run wrap-and-sort -bask.
+  * d/copyright: Use https protocol in Format field.
+  * Use debhelper-compat instead of debian/compat.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 9 to 12.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 13 Oct 2019 17:34:49 +0200
+
+python-urlobject (2.4.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andrew Shadura <andrewsh@debian.org>  Tue, 05 Jul 2016 16:57:16 +0200
+
+python-urlobject (2.3.4-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Andrew Shadura <andrewsh@debian.org>  Sat, 11 Jan 2014 15:20:18 +0100

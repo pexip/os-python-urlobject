@@ -1,0 +1,56 @@
+From: Andrej Shadura <andrewsh@debian.org>
+Subject: Use system-provided six.
+
+--- a/urlobject/netloc.py
++++ b/urlobject/netloc.py
+@@ -1,5 +1,5 @@
+ from .compat import urlparse
+-from .six import text_type, u
++from six import text_type, u
+ 
+ 
+ class Netloc(text_type):
+--- a/urlobject/path.py
++++ b/urlobject/path.py
+@@ -4,7 +4,7 @@
+ import urllib
+ 
+ from .compat import urlparse
+-from .six import text_type, u
++from six import text_type, u
+ 
+ 
+ class Root(object):
+--- a/urlobject/query_string.py
++++ b/urlobject/query_string.py
+@@ -3,7 +3,7 @@
+ import urllib
+ 
+ from .compat import urlparse
+-from .six import PY2, text_type, string_types, u
++from six import PY2, text_type, string_types, u
+ 
+ 
+ class QueryString(text_type):
+--- a/urlobject/urlobject.py
++++ b/urlobject/urlobject.py
+@@ -3,7 +3,7 @@
+ from .path import URLPath, path_encode, path_decode
+ from .ports import DEFAULT_PORTS
+ from .query_string import QueryString
+-from .six import text_type, u
++from six import text_type, u
+ 
+ class URLObject(text_type):
+ 
+--- a/README.rst
++++ b/README.rst
+@@ -54,7 +54,7 @@
+ Credits
+ ~~~~~~~
+ 
+-This library bundles `six <http://packages.python.org/six/>`__, which is
++This library uses `six <http://packages.python.org/six/>`__, which is
+ licensed as follows:
+ 
+     Copyright (c) 2010-2012 Benjamin Peterson
