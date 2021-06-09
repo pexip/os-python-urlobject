@@ -1,0 +1,12 @@
+*.egg-info/
+*.pyc
+*.pyo
+.DS_Store
+MANIFEST
+build/
+dist/
+distribute-*.egg
+distribute-*.tar.gz
+doc/.build
+.coverage
+.tox
