@@ -1,6 +1,7 @@
 Source: python-urlobject
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders:
  Andrej Shadura <andrewsh@debian.org>
 Section: python
 Priority: optional
@@ -15,6 +16,7 @@ Build-Depends:
 Standards-Version: 3.9.5
 Vcs-Git: https://salsa.debian.org/debian/python-urlobject.git
 Vcs-Browser: https://salsa.debian.org/debian/python-urlobject
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bullseye
 
 Package: python3-urlobject
 Architecture: all

@@ -1,3 +1,9 @@
+python-urlobject (2.4.3-3pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Wed, 09 Jun 2021 17:03:25 +0000
+
 python-urlobject (2.4.3-3) unstable; urgency=medium
 
   * No change rebuild.
