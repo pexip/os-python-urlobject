@@ -1,3 +1,9 @@
+python-urlobject (2.4.3-3pexip2) pexip; urgency=medium
+
+  * Don't build docs
+
+ -- Huw Jones <huw@pexip.com>  Thu, 10 Jun 2021 11:53:25 +0100
+
 python-urlobject (2.4.3-3pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
